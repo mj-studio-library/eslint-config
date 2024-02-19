@@ -1,6 +1,6 @@
 {
   "name": "@mj-studio/eslint-config-react",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ESLint config for React only",
   "main": "index.js",
   "license": "MIT",

@@ -155,12 +155,7 @@ module.exports = {
     'jest/valid-expect-in-promise': 0,
     'jest/no-standalone-expect': 0,
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': [
-      'warn',
-      {
-        additionalHooks: 'useRecoilCallback',
-      },
-    ],
+    'react-hooks/exhaustive-deps': 'error',
     'react/prefer-stateless-function': 'error',
     'react/button-has-type': 'error',
     'react/no-unused-prop-types': 'error',
