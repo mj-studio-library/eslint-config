@@ -8,15 +8,13 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 2017,
   },
-  plugins: ['eslint-comments', 'simple-import-sort', 'import'],
+  plugins: ['simple-import-sort', 'import'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint/eslint-plugin'],
       rules: {
-        'eslint-comments/no-unlimited-disable': 0,
-        'eslint-comments/no-unused-disable': 0,
         'prettier/prettier': ['error', {endOfLine: 'auto'}],
         'simple-import-sort/imports': [
           'error',
