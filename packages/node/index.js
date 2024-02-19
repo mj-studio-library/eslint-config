@@ -38,7 +38,7 @@ module.exports = {
           },
         ],
         'no-shadow': 'off',
-        '@typescript-eslint/no-shadow': ['warn'],
+        '@typescript-eslint/no-shadow': 0,
         '@typescript-eslint/explicit-function-return-type': 0,
         'no-duplicate-imports': 'off',
         'import/no-duplicates': ['error', {'prefer-inline': false}],
