@@ -6,18 +6,26 @@ if (!v || !/^\d+\.\d+\.\d+$/.test(v)) {
   await $`exit 1`;
 }
 
-const paths = ['packages/node/package.json', 'packages/react/package.json', 'packages/react-native/package.json'];
-
-for (const p of paths) {
-  const f = await fs.readFile(p, 'utf-8');
-  const c = JSON.parse(f);
-  c.version = v;
-  await fs.writeFile(p, JSON.stringify(c, null, 2));
-}
-
 const ps = ['packages/node', 'packages/react', 'packages/react-native'];
 for (const p of ps) {
-  await $`cd ${p} && yarn && npm publish && cd ../..`;
+  await $`cd ${p}`;
+  const f = await fs.readFile('package.json', 'utf-8');
+  const c = JSON.parse(f);
+
+  c.version = v;
+  if('@mj-studio/eslint-config-node' in c.dependencies) {
+    c.dependencies['@mj-studio/eslint-config-node'] = v;
+  }
+  if('@mj-studio/eslint-config-react' in c.dependencies) {
+    c.dependencies['@mj-studio/eslint-config-react'] = v;
+  }
+
+  await fs.writeFile('package.json', JSON.stringify(c, null, 2));
+
+
+  await $`pwd`;
+  // await $`yarn && npm publish`;
+  // await $`cd ../..`
 }
 
 await $`git add .`;

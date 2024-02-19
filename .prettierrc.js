@@ -5,4 +5,5 @@ module.exports = {
   singleQuote: true,
   jsxSingleQuote: false,
   bracketSpacing: false,
+  printWidth: 999,
 };

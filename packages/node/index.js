@@ -64,8 +64,9 @@ module.exports = {
       'error',
       {
         code: 100,
-        ignoreRegExpLiterals: true,
         ignoreComments: true,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
         ignoreUrls: true,
       },
     ],
@@ -141,5 +142,6 @@ module.exports = {
     'no-duplicate-imports': 'error',
     'jest/valid-expect-in-promise': 0,
     'jest/no-standalone-expect': 0,
+    'prettier/prettier': ['error', {endOfLine: 'auto'}],
   },
 };
