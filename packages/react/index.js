@@ -10,7 +10,6 @@ module.exports = {
     },
   },
   plugins: [
-    'eslint-comments',
     'react',
     'react-hooks',
     'simple-import-sort',
