@@ -1,15 +1,15 @@
 {
-  "name": "@dooboo/eslint-config-react",
-  "version": "1.4.3",
+  "name": "@mj-studio/eslint-config-react",
+  "version": "0.0.1",
   "description": "ESLint config for React only",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "include": "pnpm install"
+    "include": "yarn"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dooboolab/eslint-config.git"
+    "url": "git@github.com:mj-studio-library/eslint-config.git"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "latest",

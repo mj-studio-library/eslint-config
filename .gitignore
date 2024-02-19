@@ -2,3 +2,6 @@ node_modules/
 .DS_Store
 yarn.lock
 package-lock.json
+/.pnp
+.pnp.cjs
+.pnp.loader.mjs
