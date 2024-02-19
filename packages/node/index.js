@@ -6,7 +6,7 @@ module.exports = {
   },
   parserOptions: {
     sourceType: 'module',
-    ecmaVersion: 2017,
+    ecmaVersion: 'latest',
   },
   plugins: ['simple-import-sort', 'import'],
   overrides: [
@@ -143,5 +143,16 @@ module.exports = {
     'jest/valid-expect-in-promise': 0,
     'jest/no-standalone-expect': 0,
     'prettier/prettier': ['error', {endOfLine: 'auto'}],
+    'simple-import-sort/imports': [
+      'error',
+      {
+        groups: [
+          ['^\\u0000'],
+          ['^react', '^@?\\w'],
+          ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+          ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+        ],
+      },
+    ],
   },
 };
