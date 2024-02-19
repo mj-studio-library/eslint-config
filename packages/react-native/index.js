@@ -39,12 +39,7 @@ module.exports = {
         ],
         'no-shadow': 'off',
         '@typescript-eslint/no-shadow': ['warn'],
-        '@typescript-eslint/explicit-function-return-type': [
-          'error',
-          {
-            allowExpressions: true,
-          },
-        ],
+        '@typescript-eslint/explicit-function-return-type': 0,
         'no-duplicate-imports': 'off',
         'import/no-duplicates': ['error', {'prefer-inline': false}],
       },
@@ -79,8 +74,8 @@ module.exports = {
     'arrow-parens': ['error', 'always'],
     'no-new-object': 'error',
     'no-array-constructor': 'error',
-    'no-use-before-define': [0],
-    '@typescript-eslint/no-use-before-define': [1],
+    'no-use-before-define': 0,
+    '@typescript-eslint/no-use-before-define': 0,
     'space-before-function-paren': [
       'error',
       {
