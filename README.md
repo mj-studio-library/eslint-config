@@ -4,6 +4,16 @@
 > 
 > This project is forked from @dooboo/eslint-config
 
+## Usage
+These packages include internal eslint config/plugins with `dependencies` not `peerDependencies`.
+
+So user can just declare their `eslintrc.js` like that.
+
+```js
+extends: ['@mj-studio/eslint-config-(node|react|react-native)']
+```
+
+
 ### Node.js
 
 [![Npm Version](http://img.shields.io/npm/v/@mj-studio/eslint-config-node.svg?style=flat-square)](https://npmjs.org/package/@mj-studio/eslint-config-node)
