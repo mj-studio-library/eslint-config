@@ -9,7 +9,7 @@ if (!v || !/^\d+\.\d+\.\d+$/.test(v)) {
 const ps = ['packages/node', 'packages/react', 'packages/react-native'];
 for (const p of ps) {
   await $`cd ${p}`;
-  const f = await fs.readFile('package.json', 'utf-8');
+  const f = await fs.readFile(`${p}/package.json`, 'utf-8');
   const c = JSON.parse(f);
 
   c.version = v;
@@ -20,7 +20,7 @@ for (const p of ps) {
     c.dependencies['@mj-studio/eslint-config-react'] = v;
   }
 
-  await fs.writeFile('package.json', JSON.stringify(c, null, 2));
+  await fs.writeFile(`${p}/package.json`, JSON.stringify(c, null, 2));
 
 
   await $`pwd`;
