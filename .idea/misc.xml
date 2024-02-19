@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="5" BundledDictionary0="android.dic" BundledDictionary1="jetbrains.dic" BundledDictionary2="doxygen.dic" BundledDictionary3="english.dic" BundledDictionary4="objc.dic" Folders="0" Dictionaries="0" />
+</project>
