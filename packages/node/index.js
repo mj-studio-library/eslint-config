@@ -4,7 +4,7 @@ module.exports = {
     browser: true,
     jest: true,
   },
-  plugins: ['simple-import-sort', 'import'],
+  plugins: ['simple-import-sort', 'import', '@typescript-eslint/eslint-plugin'],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     "ecmaFeatures": {

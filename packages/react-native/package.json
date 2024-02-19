@@ -1,6 +1,6 @@
 {
   "name": "@mj-studio/eslint-config-react-native",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "ESLint config for React & React Native that extends @react-native/eslint-config",
   "main": "index.js",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "url": "git@github.com:mj-studio-library/eslint-config.git"
   },
   "dependencies": {
-    "@mj-studio/eslint-config-react": "0.0.13",
+    "@mj-studio/eslint-config-react": "0.0.14",
     "@react-native/eslint-config": "latest"
   },
   "peerDependencies": {
