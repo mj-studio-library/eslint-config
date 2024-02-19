@@ -48,7 +48,7 @@ module.exports = {
     'react/no-typos': 'warn',
     'react/display-name': 'off',
     'react/self-closing-comp': 'warn',
-    'react/jsx-sort-props': 'warn',
+    'react/jsx-sort-props': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/prop-types': 'off',
