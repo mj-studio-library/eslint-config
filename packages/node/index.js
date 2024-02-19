@@ -4,46 +4,16 @@ module.exports = {
     browser: true,
     jest: true,
   },
-  parserOptions: {
-    sourceType: 'module',
-    ecmaVersion: 2017,
-  },
   plugins: ['simple-import-sort', 'import'],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      parser: '@typescript-eslint/parser',
-      plugins: ['@typescript-eslint/eslint-plugin'],
-      rules: {
-        'prettier/prettier': ['error', {endOfLine: 'auto'}],
-        'simple-import-sort/imports': [
-          'error',
-          {
-            groups: [
-              ['^\\u0000'],
-              ['^react', '^@?\\w'],
-              ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
-              ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
-            ],
-          },
-        ],
-        '@typescript-eslint/consistent-type-imports': 'warn',
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': [
-          'warn',
-          {
-            varsIgnorePattern: '^_',
-            argsIgnorePattern: '^_',
-            ignoreRestSiblings: true,
-          },
-        ],
-        'no-shadow': 'off',
-        '@typescript-eslint/no-shadow': ['warn'],
-        '@typescript-eslint/explicit-function-return-type': 0,
-        'no-duplicate-imports': 'off',
-        'import/no-duplicates': ['error', {'prefer-inline': false}],
-      },
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    "ecmaFeatures": {
+      "jsx": true
     },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  overrides: [
     {
       files: ['*.json'],
       rules: {
@@ -52,6 +22,22 @@ module.exports = {
     },
   ],
   rules: {
+    'simple-import-sort/imports': [
+      'error',
+      {
+        groups: [
+          ['^\\u0000'],
+          ['^react', '^@?\\w'],
+          ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+          ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+        ],
+      },
+    ],
+    '@typescript-eslint/consistent-type-imports': 'warn',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['warn'],
+    '@typescript-eslint/explicit-function-return-type': 0,
+    'import/no-duplicates': ['error', {'prefer-inline': false}],
     '@typescript-eslint/no-var-requires': 0,
     camelcase: 0,
     indent: 'off',
