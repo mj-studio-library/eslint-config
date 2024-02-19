@@ -130,7 +130,7 @@ module.exports = {
     ],
     'no-unused-expressions': 'off',
 
-    'default-param-last': ['warn'],
+    'default-param-last': 0,
     'no-undef': 0,
     'no-duplicate-imports': 'error',
     'jest/valid-expect-in-promise': 0,
