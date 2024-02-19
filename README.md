@@ -13,6 +13,16 @@ So user can just declare their `eslintrc.js` like that.
 extends: ['@mj-studio/eslint-config-(node|react|react-native)']
 ```
 
+On the other hand, User should install `eslint`, `prettier`, `typescript` in their `devDependencies`.
+
+## Feature
+
+- **TypeScript**
+- **Prettier**
+- **Import Sort/Assertion**
+- **React(only in `react`/`react-native`)**
+- **Useful Rules**
+
 
 ### Node.js
 
