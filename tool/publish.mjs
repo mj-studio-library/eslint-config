@@ -1,5 +1,6 @@
 #!/usr/bin/env zx
 const v = process.argv[3];
+import path from 'path';
 
 if (!v || !/^\d+\.\d+\.\d+$/.test(v)) {
   console.log('version required');
