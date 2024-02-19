@@ -1,69 +1,34 @@
-# ESLint Config
+# MJ Studio ESLint Config
 
 > ESLint configuration for below projects.
+> 
+> This project is forked from @dooboo/eslint-config
 
 ### Node.js
 
-[![Npm Version](http://img.shields.io/npm/v/@dooboo/eslint-config-node.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config-node)
-
-[See package](packages/node/README.md)
+[![Npm Version](http://img.shields.io/npm/v/@mj-studio/eslint-config-node.svg?style=flat-square)](https://npmjs.org/package/@mj-studio/eslint-config-node)
 
 ### React Native
 
-[![Npm Version](http://img.shields.io/npm/v/@dooboo/eslint-config-react-native.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config-react-native)
-
-[See package](packages/react-native/README.md)
+[![Npm Version](http://img.shields.io/npm/v/@mj-studio/eslint-config-react-native.svg?style=flat-square)](https://npmjs.org/package/@mj-studio/eslint-config-react-native)
 
 ### React
 
-[![Npm Version](http://img.shields.io/npm/v/@dooboo/eslint-config-react.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config-react)
-
-[See package](packages/react/README.md)
+[![Npm Version](http://img.shields.io/npm/v/@mj-studio/eslint-config-react.svg?style=flat-square)](https://npmjs.org/package/@mj-studio/eslint-config-react)
 
 ### Recommendation
 
-#### `.prettierrc.js`
+#### `.prettierrc.json`
 
-```
-module.exports = {
-  trailingComma: "all",
-  arrowParens: "always",
-  singleQuote: true,
-  jsxSingleQuote: false,
-  bracketSpacing: false,
-};
-```
-
-#### `.vscode/settings.json`
 ```
 {
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.eslint": false
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "javascript.preferences.importModuleSpecifier": "relative",
-  "typescript.preferences.importModuleSpecifier": "relative",
-  "prettier.configPath": ".prettierrc.js",
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "printWidth": 100,
+  "quoteProps": "consistent",
+  "tabWidth": 2
 }
-```
 
-#### For yarn berry user
-```
-yarn dlx @yarnpkg/sdks vscode
 ```

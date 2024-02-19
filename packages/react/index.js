@@ -46,7 +46,7 @@ module.exports = {
     'react/jsx-no-useless-fragment': 'warn',
     'react/jsx-curly-brace-presence': 'warn',
     'react/no-typos': 'warn',
-    'react/display-name': 'warn',
+    'react/display-name': 'off',
     'react/self-closing-comp': 'warn',
     'react/jsx-sort-props': 'warn',
     'react/react-in-jsx-scope': 'off',
