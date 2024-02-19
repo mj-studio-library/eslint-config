@@ -18,4 +18,4 @@ for(const p of paths) {
 await $`git add .`;
 await $`git commit -m ${v}`;
 await $`git tag ${v}`;
-await $`git push && git push ${v}`;
+await $`git push && git push origin --tags`;
