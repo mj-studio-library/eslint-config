@@ -1,7 +1,7 @@
 # MJ Studio ESLint Config
 
-> ESLint configuration for below projects.
-> 
+<img width="876" alt="MJStudio_horizontal" src="https://github.com/mj-studio-library/eslint-config/assets/33388801/1596cf4f-65fb-4251-9c6f-c0f11706e4e6">
+
 > This project is forked from @dooboo/eslint-config
 
 ## Usage
