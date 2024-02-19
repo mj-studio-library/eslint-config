@@ -8,7 +8,6 @@ if (!v || !/^\d+\.\d+\.\d+$/.test(v)) {
 
 const ps = ['packages/node', 'packages/react', 'packages/react-native'];
 for (const p of ps) {
-  await $`cd ${p}`;
   const f = await fs.readFile(`${p}/package.json`, 'utf-8');
   const c = JSON.parse(f);
 
@@ -23,9 +22,7 @@ for (const p of ps) {
   await fs.writeFile(`${p}/package.json`, JSON.stringify(c, null, 2));
 
 
-  await $`pwd`;
-  // await $`yarn && npm publish`;
-  // await $`cd ../..`
+  await $`cd ${p} && pwd && yarn && npm publish`;
 }
 
 await $`git add .`;
