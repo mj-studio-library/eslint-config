@@ -30,11 +30,6 @@ module.exports = {
     'react/no-danger-with-children': 'error',
     'react/no-unstable-nested-components': ['error', {allowAsProps: true}],
     'react/jsx-fragments': 'error',
-    'react/destructuring-assignment': [
-      'error',
-      'always',
-      {destructureInSignature: 'always'},
-    ],
     'react/jsx-no-leaked-render': ['error', {validStrategies: ['ternary']}],
     'react/jsx-max-depth': ['warn', {max: 8}],
     'react/function-component-definition': [
@@ -58,5 +53,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/prop-types': 'off',
+    'react/destructuring-assignment': 'off'
   },
 };

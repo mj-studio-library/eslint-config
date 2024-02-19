@@ -86,14 +86,7 @@ module.exports = {
     'no-new-object': 'error',
     'no-array-constructor': 'error',
     'no-use-before-define': 0,
-    'space-before-function-paren': [
-      'error',
-      {
-        anonymous: 'never',
-        named: 'never',
-        asyncArrow: 'always',
-      },
-    ],
+    'space-before-function-paren': 'off',
     'generator-star-spacing': ['error', {before: false, after: true}],
     'padding-line-between-statements': [
       'warn',
