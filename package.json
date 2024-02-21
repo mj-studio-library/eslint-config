@@ -2,7 +2,7 @@
   "scripts": {
     "eslint": "eslint",
     "lint": "eslint --fix .",
-    "release": "zx tool/publish.mjs x.x.x"
+    "release": "zx tool/publish.mjs"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.1",
