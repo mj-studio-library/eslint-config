@@ -90,6 +90,7 @@ module.exports = {
     'generator-star-spacing': ['error', {before: false, after: true}],
     'padding-line-between-statements': [
       'warn',
+      {blankLine: 'always', prev: '*', next: 'return'},
       {blankLine: 'always', prev: 'directive', next: '*'},
       {blankLine: 'any', prev: 'directive', next: 'directive'},
       {blankLine: 'always', prev: 'import', next: '*'},
