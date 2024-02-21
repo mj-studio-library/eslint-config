@@ -25,5 +25,7 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "author": "MJ Studio <mym0404@gmail.com>",
+  "homepage": "https://github.com/mj-studio-library/eslint-config"
 }

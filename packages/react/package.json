@@ -23,9 +23,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "dooboolab <dev@dooboolab.com>",
-  "bugs": {
-    "url": "https://github.com/dooboolab-community/eslint-config/issues"
-  },
-  "homepage": "https://github.com/dooboolab-community/eslint-config#readme"
+  "author": "MJ Studio <mym0404@gmail.com>",
+  "homepage": "https://github.com/mj-studio-library/eslint-config"
 }
