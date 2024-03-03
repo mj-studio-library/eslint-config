@@ -42,7 +42,7 @@ module.exports = {
         warnOnDuplicates: true,
       },
     ],
-    'react/jsx-no-useless-fragment': 'warn',
+    'react/jsx-no-useless-fragment': 'off',
     'react/no-typos': 'warn',
     'react/display-name': 'off',
     'react/self-closing-comp': 'warn',
