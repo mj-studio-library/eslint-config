@@ -53,7 +53,7 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/jsx-curly-brace-presence': [
       'error',
-      { 'props': 'always', 'children': 'never', 'propElementValues': 'always' },
+      { 'props': 'always', 'children': 'always', 'propElementValues': 'always' },
     ],
   },
 };
