@@ -1,6 +1,6 @@
 {
   "name": "@mj-studio/eslint-config-react",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "ESLint config for React only",
   "main": "index.js",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "url": "git@github.com:mj-studio-library/eslint-config.git"
   },
   "dependencies": {
-    "@mj-studio/eslint-config-node": "0.1.8",
+    "@mj-studio/eslint-config-node": "0.1.9",
     "eslint-plugin-react": "latest",
     "eslint-plugin-react-hooks": "latest"
   },
