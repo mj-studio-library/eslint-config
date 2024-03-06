@@ -147,6 +147,6 @@ module.exports = {
         ],
       },
     ],
-    'quotes': ['error', 'single', { allowTemplateLiterals: true }],
+    'quotes': ['error', 'single'],
   },
 };
