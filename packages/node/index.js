@@ -147,6 +147,6 @@ module.exports = {
         ],
       },
     ],
-    'quotes': ['error', 'single'],
+    'quotes': ['error', 'single', { avoidExcape: true }],
   },
 };
