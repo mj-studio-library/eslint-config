@@ -15,7 +15,7 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint/eslint-plugin'],
       rules: {
-        'prettier/prettier': ['error', {endOfLine: 'auto'}],
+        'prettier/prettier': ['error', { endOfLine: 'auto' }],
         'simple-import-sort/imports': [
           'error',
           {
@@ -41,7 +41,7 @@ module.exports = {
         '@typescript-eslint/no-shadow': 0,
         '@typescript-eslint/explicit-function-return-type': 0,
         'no-duplicate-imports': 'off',
-        'import/no-duplicates': ['error', {'prefer-inline': false}],
+        'import/no-duplicates': ['error', { 'prefer-inline': false }],
         '@typescript-eslint/no-var-requires': 0,
         '@typescript-eslint/interface-name-prefix': 0,
         '@typescript-eslint/no-empty-function': 0,
@@ -87,14 +87,14 @@ module.exports = {
     'no-array-constructor': 'error',
     'no-use-before-define': 0,
     'space-before-function-paren': 'off',
-    'generator-star-spacing': ['error', {before: false, after: true}],
+    'generator-star-spacing': ['error', { before: false, after: true }],
     'padding-line-between-statements': [
       'warn',
-      {blankLine: 'always', prev: '*', next: 'return'},
-      {blankLine: 'always', prev: 'directive', next: '*'},
-      {blankLine: 'any', prev: 'directive', next: 'directive'},
-      {blankLine: 'always', prev: 'import', next: '*'},
-      {blankLine: 'any', prev: 'import', next: 'import'},
+      { blankLine: 'always', prev: '*', next: 'return' },
+      { blankLine: 'always', prev: 'directive', next: '*' },
+      { blankLine: 'any', prev: 'directive', next: 'directive' },
+      { blankLine: 'always', prev: 'import', next: '*' },
+      { blankLine: 'any', prev: 'import', next: 'import' },
       {
         blankLine: 'always',
         prev: '*',
@@ -135,7 +135,7 @@ module.exports = {
     'no-duplicate-imports': 'error',
     'jest/valid-expect-in-promise': 0,
     'jest/no-standalone-expect': 0,
-    'prettier/prettier': ['error', {endOfLine: 'auto'}],
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
     'simple-import-sort/imports': [
       'error',
       {
@@ -147,5 +147,6 @@ module.exports = {
         ],
       },
     ],
+    'quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
 };
