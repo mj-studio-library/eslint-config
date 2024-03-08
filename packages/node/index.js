@@ -148,5 +148,10 @@ module.exports = {
       },
     ],
     'quotes': ['error', 'single', { avoidEscape: true }],
+    'prefer-const': [
+      'error', {
+        'destructuring': 'any',
+        'ignoreReadBeforeAssign': false,
+      }],
   },
 };
