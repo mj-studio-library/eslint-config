@@ -30,10 +30,7 @@ module.exports = {
     'react/jsx-fragments': 'error',
     'react/jsx-no-leaked-render': ['error', { validStrategies: ['ternary'] }],
     'react/jsx-max-depth': ['warn', { max: 8 }],
-    'react/function-component-definition': [
-      'warn',
-      { namedComponents: 'function-declaration' },
-    ],
+    'react/function-component-definition': 'off',
     'react/jsx-key': [
       'error',
       {
