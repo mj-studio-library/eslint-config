@@ -1,6 +1,7 @@
 # MJ Studio ESLint Config
 
-<img width="876" alt="MJStudio_horizontal" src="https://github.com/mj-studio-library/eslint-config/assets/33388801/1596cf4f-65fb-4251-9c6f-c0f11706e4e6">
+![ogimage-1260-630](https://github.com/mj-studio-library/eslint-config/assets/33388801/618cf53c-4e3c-4a7d-b96a-66ebd3cce28b)
+
 
 > This project is forked from @dooboo/eslint-config
 
