@@ -1,6 +1,6 @@
 {
   "name": "@mj-studio/eslint-config-node",
-  "version": "0.1.1213",
+  "version": "1.0.1",
   "description": "ESLint config for node.js",
   "main": "index.js",
   "license": "MIT",
