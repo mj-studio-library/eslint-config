@@ -125,8 +125,7 @@ const HEADING = `// @ts-nocheck
 const packageJson = readJsonSlow('packages/node/package.json');
 const currentVersion = packageJson.version;
 let [a, b, c] = currentVersion.split('.');
-c += 1;
-const v = `${a}.${b}.${c}`;
+const v = `${a}.${b}.${Number(c) + 1}`;
 
 const ps = ['packages/node', 'packages/react', 'packages/react-native'];
 for (const p of ps) {
