@@ -2,7 +2,7 @@
   "scripts": {
     "eslint": "eslint",
     "lint": "eslint --fix .",
-    "release": "zx tool/publish.mjs"
+    "release": "yarn zx tool/publish.mjs"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.1",
@@ -11,8 +11,10 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-prettier": "^5.1.3",
+    "fs-extra": "^11.2.0",
     "prettier": "^3.2.5",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "zx": "^7.2.3"
   },
   "dependencies": {
     "eslint-plugin-simple-import-sort": "^12.0.0"
