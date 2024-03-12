@@ -1,6 +1,6 @@
 {
   "name": "@mj-studio/eslint-config-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint config for node.js",
   "main": "index.js",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "@typescript-eslint/parser": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-import": "latest",
-    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-prettier": "^5",
     "eslint-plugin-simple-import-sort": "latest"
   },
   "peerDependencies": {
