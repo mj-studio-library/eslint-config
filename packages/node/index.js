@@ -28,7 +28,6 @@ module.exports = {
           },
         ],
         "@typescript-eslint/consistent-type-imports": ["error", { "prefer": "type-imports" }],
-        "@typescript-eslint/consistent-type-exports": "error",
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': [
           'warn',
