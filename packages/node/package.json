@@ -1,6 +1,6 @@
 {
   "name": "@mj-studio/eslint-config-node",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "ESLint config for node.js",
   "main": "index.js",
   "license": "MIT",
@@ -13,10 +13,10 @@
   },
   "dependencies": {
     "@eslint/js": "^9.11.1",
-    "@typescript-eslint/eslint-plugin": "^8.7.0",
-    "@typescript-eslint/parser": "^8.7.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4"
   },
